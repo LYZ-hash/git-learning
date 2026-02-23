@@ -27,3 +27,12 @@ spring:
 
 server:
   port: 8080
+
+# ============================================================
+# TaskFlow custom application settings
+# (Added by feature/project-module)
+# ============================================================
+taskflow:
+  project:
+    max-projects-per-user: 20
+    allow-archive: true
